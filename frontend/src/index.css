@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    color : white;
+    font-family: "Quicksand", sans-serif;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.navbar_container{
+    font-family: "Exo 2", sans-serif ;
+    font-family: "Quicksand", sans-serif;
+
+
+}
+.home_h1{
+    font-family: "Exo 2", sans-serif;
+font-size:3.5em;
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(240, 255, 29) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.skill_img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+.active-nav-item {
+    color: white !important; /* Change this to the desired color */
+    background-color: none;  /* Adjust as needed */
+  }
