@@ -15,6 +15,7 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link as ScrollLink } from 'react-scroll';
+import ProgressBar from '../components/ProgressBar';  
 
 const drawerWidth = 240;
 const navItems = ["Home", "Project", "Skill", "Journey", "Contact"];
@@ -70,6 +71,7 @@ function Navbar(props) {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
+      <ProgressBar />  {/* Include the ProgressBar component */}
       <AppBar
         component="nav"
         sx={{
