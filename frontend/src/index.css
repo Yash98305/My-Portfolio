@@ -31,3 +31,20 @@ font-size:3.5em;
     color: white !important; /* Change this to the desired color */
     background-color: none;  /* Adjust as needed */
   }
+  
+.headline{
+    margin: 60px;
+    font-size: 50px;
+    font-weight: 500;
+}
+.headline::before{
+content: "";
+position :absolute;
+border : 3px solid rgb(88, 250, 0);
+border-radius: 10px;
+    width: 200px;
+transform: translate(8px,72px);}
+.vertical-timeline-element-content .vertical-timeline-element-date{
+    color:rgb(87, 250, 0);
+    opacity:1;
+}

@@ -13,7 +13,6 @@ const links = [
   { name: 'nodejs', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg' },
   { name: 'express', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg' },
   { name: 'mongodb', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg' },
-  // { name: 'mysql', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg' },
   { name: 'mysql', src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg' },
   { name: 'material ui', src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materialui/materialui-original.svg" },
   { name: 'bootstrap', src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"  },
@@ -29,7 +28,6 @@ const Skill = () => {
   console.log(links);
   return (
     <div>
-      <h3 align="left">Languages and Tools :</h3>
       <div style={{ display: 'flex', gap: '100px', flexWrap: 'wrap',padding:'0 5vw',justifyContent:"center"}}>
         {links.length > 0 &&
           links.map((data, index) => (

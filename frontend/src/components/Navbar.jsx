@@ -70,8 +70,7 @@ function Navbar(props) {
 
   return (
     <Box sx={{ display: "flex" }}>
-      <CssBaseline />
-      <ProgressBar />  {/* Include the ProgressBar component */}
+      <ProgressBar />
       <AppBar
         component="nav"
         sx={{
@@ -126,18 +125,14 @@ function Navbar(props) {
                 onClick={() => handleItemClick(item)}
               >
                 <Button
-                  style={{ fontFamily: `"Exo 2", sans-serif`, letterSpacing: 2, fontWeight: 800 }}
+                  style={{ fontFamily: `"Exo 2", sans-serif`, letterSpacing: 3, fontWeight: 500 }}
                   sx={{
                     marginRight: "40px",
-                    backgroundColor: index === lastItemIndex ? "yellow" : "none",
-                    color:
-                      index === lastItemIndex
-                        ? "black"
-                        : selectedItem === item
-                          ? "white"
-                          : "#848884",
+                    border: index === lastItemIndex ? "1.5px solid rgb(88, 250, 0)" : "none",
+                    color:"white",
+                     
                     "&:hover": {
-                      backgroundColor: index === lastItemIndex ? "yellow" : "none",
+                      backgroundColor: index === lastItemIndex ? "rgb(88, 250, 0)" : "none",
                       color: index === lastItemIndex ? "black" : "#C0C0C0",
                     },
                   }}

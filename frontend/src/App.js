@@ -11,11 +11,11 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <section id='Home'><Home /></section>
-      <section id='Project'><Project /></section>
-      <section id='Skill'><Skill /></section>
-      <section id='Journey'><Journey /></section>
-      <section id='Contact'><Contact /></section>
+      <section id='Home'></section><Home />
+      <section id='Project' className='headline'>My Projects:</section><Project />
+      <section id='Skill' className='headline'>Tech Skills:</section><Skill />
+      <section id='Journey' className='headline'>My Journey:</section><Journey />
+      <section id='Contact' className='headline'>Contact me:</section><Contact />
     </>
   );
 }

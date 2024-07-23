@@ -2,9 +2,7 @@ import React from 'react'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import Card from "../components/Card"
-import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
-import Grid from '@mui/material/Unstable_Grid2';
+import Card2 from '../components/Card2';
 
 const responsive = {
   desktop: {
@@ -44,13 +42,13 @@ const Project = () => {
       removeArrowOnDeviceType={["tablet", "mobile"]}
       // deviceType={this.props.deviceType}
     >
-  <Card n={1}/>
-      <Card n={2}/>
-     <Card n={3}/>
-      <Card n={4}/>
-      <Card n={5}/>
-      <Card n={6}/>
-      <Card n={7}/>
+  <Card2 n={1}/>
+      <Card2 n={2}/>
+     <Card2 n={3}/>
+      <Card2 n={4}/>
+      <Card2 n={5}/>
+      <Card2 n={6}/>
+      <Card2 n={7}/>
 
     </Carousel>
     </div>
