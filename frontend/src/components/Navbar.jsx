@@ -18,7 +18,7 @@ import { Link as ScrollLink } from 'react-scroll';
 import ProgressBar from '../components/ProgressBar';  
 
 const drawerWidth = 240;
-const navItems = ["Home", "Project", "Skill", "Journey", "Contact"];
+const navItems = ["Home", "Project", "Skill", "Journey","Activity", "Contact"];
 
 function Navbar(props) {
   const { window } = props;

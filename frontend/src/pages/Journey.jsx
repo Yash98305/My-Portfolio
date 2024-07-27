@@ -2,8 +2,7 @@ import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
    import 'react-vertical-timeline-component/style.min.css';
    import AllOutIcon from '@mui/icons-material/AllOut';
- 
-   import RadioButtonCheckedIcon from '@mui/icons-material/RadioButtonChecked';const Journey = () => {
+    const Journey = () => {
  const a = [1,2,3,4,5,6,7,1,2,3,4,5,6,7];
     return (
 
