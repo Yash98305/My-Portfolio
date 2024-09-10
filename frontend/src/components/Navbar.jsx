@@ -16,9 +16,10 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { Link as ScrollLink } from 'react-scroll';
 import ProgressBar from '../components/ProgressBar';  
+import { Avatar } from "@mui/material";
 
 const drawerWidth = 240;
-const navItems = ["Home", "Project", "Skill", "Journey","Activity", "Contact"];
+const navItems = ["Home", "Project", "Skill", "Journey", "Contact"];
 
 function Navbar(props) {
   const { window } = props;
@@ -102,15 +103,11 @@ function Navbar(props) {
               display: "flex",
             }}
           >
-            <div
-              style={{
-                borderRadius: "30px",
-                border: "2px solid white",
-                width: "35px",
-                height: "35px",
-                marginRight: "18px",
-              }}
-            ></div>
+<Avatar
+  alt="Y"
+  src={require("../assets/logo.png")}
+  sx={{ width: "40px", height: "40px",border: "2px solid white",marginRight: "18px"}}
+/>
             <span style={{ fontFamily: `"Exo 2", sans-serif` }}>Yash Patel</span>
           </Typography>
 
@@ -164,8 +161,8 @@ function Navbar(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box
-        sx={{ marginTop: 11 }}></Box>
+      {/* <Box
+        sx={{ marginTop: 11 }}></Box> */}
     </Box>
   );
 }

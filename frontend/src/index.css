@@ -17,7 +17,7 @@ body::-webkit-scrollbar{
 .home_h1{
     font-family: "Exo 2", sans-serif;
 font-size:3.5em;
-    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(240, 255, 29) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(255,255,255,1) 0%, rgb(89, 255, 0) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -47,4 +47,14 @@ transform: translate(8px,72px);}
 .vertical-timeline-element-content .vertical-timeline-element-date{
     color:rgb(87, 250, 0);
     opacity:1;
+}
+button{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+:root {
+    --toastify-color-light: #011206
 }
