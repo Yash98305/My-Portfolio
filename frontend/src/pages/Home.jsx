@@ -72,7 +72,10 @@ color:"rgb(255,255,255,0.5)"
 <Avatar
   alt="Y"
   src={require("../assets/logo.png")}
-  sx={{ width: 400, height: 400}}
+  sx={{ width: 400, height: 400,background: "rgba(0, 0, 0, 0.1)",
+            boxShadow: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+            backdropFilter: "blur(4px)",
+            WebkitBackdropFilter: "blur(4px)",}}
 /></span>
 </div>
     </div>

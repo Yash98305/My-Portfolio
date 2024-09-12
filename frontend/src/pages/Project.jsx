@@ -7,6 +7,7 @@ import img2 from "../assets/img2.png";
 import img3 from "../assets/img3.png";
 import img4 from "../assets/img4.png";
 import img5 from "../assets/img5.png";
+import img6 from "../assets/img6.png";
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
@@ -32,16 +33,14 @@ const Project = () => {
       github: "https://github.com/Yash98305/Final-Mini-Project",
     },
     {
-      name: "SAAS plan with stripe",
-      live: "https://teal-conkies-fe4d2f.netlify.app/", photo : img4,
-      github: "https://github.com/Yash98305/TensorGo-Project",
-    },
-   
-   
-    {
       name: "Portfolio",
       live: "https://yashpatel-myportfolio.netlify.app/", photo : img2,
       github: "https://github.com/Yash98305/My-Portfolio",
+    },
+    {
+      name: "SAAS plan with stripe",
+      live: "https://teal-conkies-fe4d2f.netlify.app/", photo : img4,
+      github: "https://github.com/Yash98305/TensorGo-Project",
     },
     {
       name: "Art Gallery",
@@ -53,6 +52,11 @@ const Project = () => {
       name: "Finance management",
       live: "https://finance-management-web-by-yash-patel.netlify.app/", photo : img3,
       github: "https://github.com/Yash98305/Scaler-Project",
+    },
+    {
+      name: "Onebox",
+      live: "https://reachinbox-yashpatel.netlify.app", photo : img6,
+      github: "https://github.com/Yash98305/ReachInBox-Assignment",
     },
   ];
   return (

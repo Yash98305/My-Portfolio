@@ -30,7 +30,14 @@ if (!formState.name.trim()) {
       isValid = false;
     }
 
-
+    if (!formState.email.trim()) {
+      errors.email = "Email is required";
+      isValid = false;
+    } 
+    if (!formState.message.trim()) {
+      errors.message = "message is required";
+      isValid = false;
+    } 
     const phonePattern = /^[0-9]{10}$/;
     if (!phonePattern.test(formState.contactNo)) {
       errors.contactNo = "Contact number must be a 10-digit number";
@@ -160,6 +167,8 @@ if (!formState.name.trim()) {
                 },
               },
             }}
+            helperText={formState.errors.email}
+            error={Boolean(formState.errors.email)}
           />
 
           <TextField
@@ -228,6 +237,8 @@ if (!formState.name.trim()) {
                 },
               },
             }}
+            helperText={formState.errors.message}
+            error={Boolean(formState.errors.message)}
           />
 
           <Button
@@ -239,6 +250,7 @@ if (!formState.name.trim()) {
               marginBottom: "80px",
               borderRadius: "50px",
               height: "40px",
+              color : "white",
               letterSpacing: 3,
               borderColor: "rgb(88, 250, 0)",
             }}
